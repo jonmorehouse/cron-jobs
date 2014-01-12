@@ -21,6 +21,15 @@ Sync Script
 touch config/directory_name-exclude
 ```
 
+Notes
+-----
+
+* Want to send an email after each cronjob run?
+
+```
+  echo "Mail Contents" | mail -s "Subject" email@address.com
+```
+
 
 
 
