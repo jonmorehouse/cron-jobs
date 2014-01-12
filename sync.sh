@@ -36,5 +36,6 @@ do
 	log_file=logs/$today-$destination.log
 
 	# now go ahead and do a dry run for all the commands that need to be linked etc
-	rsync -r --exclude-from=$exclude_file --log-file=$log_file $folder/* $HOME/Dropbox/$destination
+	# this is my personal run script -- I would recommend running --list-only first!
+	rsync -r --delete --exclude-from=$exclude_file --log-file=$log_file $folder/* $HOME/Dropbox/$destination
 done
