@@ -8,3 +8,13 @@ folders=(
 	$HOME/Documents/resources
 	$HOME/Documents/work
 )
+
+history_file=$HOME/.zsh_history
+
+history_keywords=(
+	
+	"open"
+	"cd"
+	"ls"
+	"watch"
+)
