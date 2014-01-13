@@ -17,4 +17,6 @@ history_keywords=(
 	"cd"
 	"ls"
 	"watch"
+	"mv"
+	"rm"
 )
