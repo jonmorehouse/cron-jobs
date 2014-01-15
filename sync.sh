@@ -39,5 +39,7 @@ do
 
 	# now go ahead and do a dry run for all the commands that need to be linked etc
 	# this is my personal run script -- I would recommend running --list-only first!
+	#rsync -r --delete --exclude-from=$exclude_file --log-file=$log_file $folder/* $HOME/Dropbox/$destination
 	rsync -r --delete --exclude-from=$exclude_file --log-file=$log_file $folder/* $HOME/Dropbox/$destination
+
 done
