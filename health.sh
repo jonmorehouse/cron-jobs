@@ -9,8 +9,15 @@ brew_doctor_output=`cat $DIR/config/expected_brew_doctor_output`
 if [[ "$output" != "$brew_doctor_output" ]]
 then
 	echo $output > $HOME/Desktop/unhealthy
+
 else
-	brew update > ~/Desktop/brew_log
+	output=`brew update`
+	expected_output=`cat $DIR/config/expected_brew_update_output`
+
+	if [[ "$output" != "$expected_output" ]]
+	then
+		echo $output > $HOME/Desktop/log
+	fi
 fi
 
 
