@@ -1,8 +1,9 @@
 #minute-hour-day-month-weekday command
 0 12 * * * /Users/MorehouseJ09/Documents/programs/cron-jobs/sync.sh
 
-#
+# check clean_history
 0 12 * * * /Users/MorehouseJ09/Documents/programs/cron-jobs/clean_history.sh
 
-0 12,22 * * * /Users/MorehouseJ09/Documents/programs/cron-jobs/health.sh
+# check health
+0 */6 * * * /Users/MorehouseJ09/Documents/programs/cron-jobs/health.sh
 
