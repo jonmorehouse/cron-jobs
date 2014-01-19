@@ -1,1 +1,5 @@
-Your system is ready to brew.
+Warning: You have a curlrc file
+If you have trouble downloading packages with Homebrew, then maybe this
+is the problem? If the following command doesn't work, then try removing
+your curlrc:
+  curl http://github.com
