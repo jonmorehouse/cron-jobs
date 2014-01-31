@@ -1,11 +1,11 @@
 folders=(
 
 	$HOME/dotfiles
+	$HOME/.alfred
 	$HOME/Documents/assets 
-	$HOME/Documents/production_development/jumper
-	$HOME/Documents/books
+	$HOME/Documents/books 
+	$HOME/Documents/development/jumper
 	$HOME/Documents/personal
-	$HOME/Documents/resources
 	$HOME/Documents/work
 )
 

@@ -2,11 +2,11 @@
 0 12 * * * /Users/MorehouseJ09/Documents/programs/cron-jobs/sync.sh
 
 # check clean_history
-0 12 * * * /Users/MorehouseJ09/Documents/programs/cron-jobs/clean_history.sh
+#0 12 * * * /Users/MorehouseJ09/Documents/programs/cron-jobs/clean_history.sh
 
 # check health - 4 times per day
 0 */6 * * * /Users/MorehouseJ09/Documents/programs/cron-jobs/health.sh
 
 # now clean computer - 4 times per day
-0 */6 * * * /Users/MorehouseJ09/Documents/programs/cron-jobs/clean_computer.sh
+#0 */6 * * * /Users/MorehouseJ09/Documents/programs/cron-jobs/clean_computer.sh
 
