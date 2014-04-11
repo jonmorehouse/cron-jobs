@@ -1,6 +1,4 @@
 folders=(
-
-	$HOME/dotfiles
 	$HOME/.alfred
 	$HOME/Documents/assets 
 	$HOME/Documents/books 
