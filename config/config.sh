@@ -1,6 +1,7 @@
 folders=(
 	$HOME/.alfred
-	$HOME/Documents/general/books 
+	$HOME/Documents/general/books
+	$HOME/Documents/general/archive
 	$HOME/Documents/personal
 )
 
